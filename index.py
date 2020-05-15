@@ -7,12 +7,13 @@ import functions
 import youtube_dl
 import datetime
 import re
+import os
 
 #다른것이와요
 
 
 client = discord.Client()   
-
+token = env.token
 prefix = '/ea'
 chattingprefix = '에아야'
 
@@ -166,4 +167,4 @@ async def on_message(message):
             await client.send_message(message.channel, msg1[2] + '번 예약곡을 취소 했느니라!')
  
 
-client.run('Bot_token')       
+client.run('token')       
