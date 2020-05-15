@@ -166,4 +166,4 @@ async def on_message(message):
             await client.send_message(message.channel, msg1[2] + '번 예약곡을 취소 했느니라!')
  
 
-client.run('NzEwMjQ3NjU1MjMzNjgzNTQ4.XrzWkg.7UyE2yLJwL3SJoPQ39pQp2kyWis')       
+client.run('Bot_token')       
