@@ -73,8 +73,5 @@ async def on_message(message):
             mod = functions.get_module(str(i[1]))
             await mod.run(client, message, args, vip, admin, cmd)
             break
-
-    if message.author.bot:
-        return None
-
+            
 client.run(token)       
