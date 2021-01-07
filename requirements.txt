@@ -6,7 +6,7 @@ chardet==3.0.4
 discord.py==0.16.12
 idna==2.8
 functions==0.7.0
-lxml==4.4.1
+lxml==4.6.2
 asyncio==3.4.3
 bs4==0.0.1
 multidict==4.5.2
